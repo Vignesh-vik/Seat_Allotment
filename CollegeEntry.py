@@ -20,6 +20,7 @@ def Studs_dets():
         alot = alot.split(" ")
         # print(alot)
         dets = [perc,alot]
+        i+=1
         print(dets)
 Studs_dets()
 
