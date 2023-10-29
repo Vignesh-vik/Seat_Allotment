@@ -38,11 +38,17 @@ Studs_dets()
 
 
 #Algorithm
-max = S_dets[0][0]
-for i in S_dets:
-    if i[0] > max:
-        max=i
-    print(max)
+def Percentage(e):
+    max = e[0][0]
+    for i in e:
+        if i[0] > max:
+            max=i
+        print("\t",max)
+
+Percentage(S_dets)
+
+S_dets.sort(key=Percentage)
+
 
 
 
